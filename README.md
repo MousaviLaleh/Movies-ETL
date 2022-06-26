@@ -1,5 +1,4 @@
-# Movies-ETL
-
+# Movies ETL
 A project in performing an ETL ( Extract, Transform, Load ) process to create data pipelines using Python, Pandas and PostgreSQL using very large data files.
 
 ## Overview
