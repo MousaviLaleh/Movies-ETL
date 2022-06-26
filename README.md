@@ -30,6 +30,7 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 <br/>
 
 **Load the data to a PostgreSQL Database** <br/>
+Added merged dataframes containig Kaggle and Wikipedia data with MoviesLens rating data to a SQL database where custom queries can be performed for analysis.
 <br/>
 ![loads.png](Resources/loads.png)
 <br/>
@@ -43,5 +44,7 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 <br/>
 
 ## Summary
-The ETL function collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.<br/>
+The ETL function collects and cleans movie data from different sources ( Wikipedia JSON, Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.<br/>
+
+<br/>
 
