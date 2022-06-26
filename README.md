@@ -18,7 +18,7 @@ For this analysis, we used the following breakdown :
 
 # Process Overview
 **Write an ETL function to read three data files** <br/>
-The function takes the Wikipedia JSON file, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames. These files contain information about movie details like name, budgets, box office returns, cast and crew, reviews and ratings.<br/>
+The function takes the Wikipedia JSON file, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames. <br/>
 
 **Extract and Transform the Wikipedia data** <br/>
 We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data, to achieve desired form.<br/>
@@ -27,4 +27,5 @@ We filtered out the TV shows, consolidated the redundant data, removed the dupli
 The same process for consolidating the redundant data, removing the duplicates, formatting and grouping the data. The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.<br/>
 
 **Load the data to a PostgreSQL Database** <br/>
+<br/>
 ![load.png](Resources/load.png)
