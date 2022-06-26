@@ -28,6 +28,7 @@ We filtered out the TV shows, consolidated the redundant data, removed the dupli
 
 **Extract and Transform the Kaggle and rating data** <br/>
 The same process, we consolidated the redundant data, removed the duplicates, formatted and grouped the data. The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.<br/>
+
 -------------------------------------------
 Transform and merge the ratings DataFrame:
 -------------------------------------------
