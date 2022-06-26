@@ -16,6 +16,9 @@ For this analysis, we used the following breakdown :
   - Data sources : [wikipedia_movies.json](Resources/wikipedia-movies.json),&nbsp; [movies_metadata.csv](Resources/movies_metadata.csv),&nbsp; [Ratings.csv](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings.csv)
   - Softwares : [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads),&nbsp; [Python](https://www.python.org/downloads/windows/),&nbsp;  [Pandas](https://www.anaconda.com/products/distribution)
 
+*hint :* [How to upload large files to GitHub repository](https://medium.com/linkit-intecs/how-to-upload-large-files-to-github-repository-2b1e03723d2)
+<br/>
+<br/>
 ## Process Overview
 **Write an ETL function to read three data files** <br/>
 The function takes the Wikipedia JSON file, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames. <br/>
@@ -36,3 +39,9 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 ![movies_query.png](Resources/movies_query.png)
 <br/>
 ![ratings_query.png](Resources/ratings_query.png)
+<br/>
+<br/>
+
+## Summary
+The ETL function collects and cleans movie data from different sources (Wikipedia JSON and Kaggle and ratings csv files). It transforms and merges the data and loads it into two updatable PostgreSQL dataset tables ready to be used by the hackathon participants for their analysis.<br/>
+
