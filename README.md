@@ -13,5 +13,5 @@ For this analysis, we used the following breakdown:
 
 
 ### Resources
-  - Data sources : [wikipedia_movies.json](), &nbsp; [movies_metadata.csv](), 
-  -      
+  - Data sources : [wikipedia_movies.json](), &nbsp; [movies_metadata.csv]()
+  - Softwares : [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads),&nbsp; [Python](https://www.python.org/downloads/windows/), &nbsp; 
