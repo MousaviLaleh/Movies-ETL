@@ -13,5 +13,5 @@ For this analysis, we used the following breakdown:
 
 
 ### Resources
-  - Data sources : [wikipedia_movies.json](), &nbsp; [movies_metadata.csv](), &nbsp; [ratings.csv]()
+  - Data sources : [wikipedia_movies.json](), &nbsp; [movies_metadata.csv](), 
   -      
