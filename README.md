@@ -24,7 +24,7 @@ The function takes the Wikipedia JSON file, the Kaggle metadata and MovieLens cs
 We filtered out the TV shows, consolidated the redundant data, removed the duplicates and formatted the Wikipedia data, to achieve desired form.<br/>
 
 **Extract and Transform the Kaggle and rating data** <br/>
-The same process for consolidating the redundant data, removing the duplicates, formatting and grouping the data. The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.<br/>
+The same process, we consolidated the redundant data, removed the duplicates, formatted and grouped the data. The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.<br/>
 
 **Load the data to a PostgreSQL Database** <br/>
 <br/>
