@@ -28,6 +28,43 @@ We filtered out the TV shows, consolidated the redundant data, removed the dupli
 
 **Extract and Transform the Kaggle and rating data** <br/>
 The same process, we consolidated the redundant data, removed the duplicates, formatted and grouped the data. The Kaggle and rating data were then merged with the Wikipedia movies DataFrame.<br/>
+# -------------------------------------------
+# Transform and merge the ratings DataFrame:
+# -------------------------------------------
+
+    from sqlalchemy import create_engine
+    from config import db_password
+    !pip install psycopg2
+    
+    # Create the Database Engine - local server, the connection string will be as follows:
+    db_string = f"postgres://postgres:{db_password}@127.0.0.1:5432/movie_data"
+    
+    # Create the database engine (to the PostgreSQL database)
+    engine = create_engine(db_string)
+    
+    # Import the movies_df DataFrame to a SQL database.
+    movies_df.to_sql(name='movies', if_exists='replace',con=engine)
+    
+    # Create a variable rows_imported
+    rows_imported = 0
+    
+    # Set start_time from time.time()
+    start_time = time.time()
+
+    for data in pd.read_csv(f'{file_dir}/ratings.csv', chunksize=1000000):
+
+        # Print out the range of rows
+        print(f'importing rows {rows_imported} to {rows_imported + len(data)}...', end='')
+
+        data.to_sql(name='ratings', con=engine, if_exists='append')
+
+        # Increment the numb. rows imported
+        rows_imported += len(data)
+
+        # Final print out
+        print(f'Done. {time.time() - start_time} total seconds elapsed')
+        
+ <br/>
 
 **Load the data to a PostgreSQL Database** <br/>
 <br/>
