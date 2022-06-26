@@ -31,7 +31,7 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 
 **Load the data to a PostgreSQL Database** <br/>
 <br/>
-![load.png](Resources/load.png)
+![loads.png](Resources/loads.png)
 <br/>
 <br/>
 **The Total Number of Rows Loaded Into Database** <br/>
