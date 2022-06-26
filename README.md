@@ -29,3 +29,7 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 **Load the data to a PostgreSQL Database** <br/>
 <br/>
 ![load.png](Resources/load.png)
+<br/>
+![movies_quey.png](Resources/movies_query.png)
+<br/>
+![ratings_query.png](Resources/ratings_query.png)
