@@ -30,6 +30,9 @@ The same process, we consolidated the redundant data, removed the duplicates, fo
 <br/>
 ![load.png](Resources/load.png)
 <br/>
-![movies_quey.png](Resources/movies_quey.png)
+<br/>
+**The Total Number of Rows Loaded Into Database** <br/>
+
+![movies_query.png](Resources/movies_query.png)
 <br/>
 ![ratings_query.png](Resources/ratings_query.png)
