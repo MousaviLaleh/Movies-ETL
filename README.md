@@ -16,7 +16,7 @@ For this analysis, we used the following breakdown :
   - Data sources : [wikipedia_movies.json](Resources/wikipedia-movies.json),&nbsp; [movies_metadata.csv](Resources/movies_metadata.csv),&nbsp; [Ratings.csv](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings.csv)
   - Softwares : [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads),&nbsp; [Python](https://www.python.org/downloads/windows/),&nbsp;  [Pandas](https://www.anaconda.com/products/distribution)
 
-*hint :* [How to upload large files to GitHub repository](https://medium.com/linkit-intecs/how-to-upload-large-files-to-github-repository-2b1e03723d2)
+*hint : [How to upload large files to GitHub repository](https://medium.com/linkit-intecs/how-to-upload-large-files-to-github-repository-2b1e03723d2)*
 <br/>
 <br/>
 ## Process Overview
