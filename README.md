@@ -16,7 +16,7 @@ For this analysis, we used the following breakdown :
   - Data sources : [wikipedia_movies.json](Resources/wikipedia-movies.json),&nbsp; [movies_metadata.csv](Resources/movies_metadata.csv),&nbsp; [Ratings.csv](https://www.kaggle.com/datasets/rounakbanik/the-movies-dataset?select=ratings.csv)
   - Softwares : [PostgreSQL](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads),&nbsp; [Python](https://www.python.org/downloads/windows/),&nbsp;  [Pandas](https://www.anaconda.com/products/distribution)
 
-# Process Overview
+## Process Overview
 **Write an ETL function to read three data files** <br/>
 The function takes the Wikipedia JSON file, the Kaggle metadata and MovieLens csv files and creates three separate DataFrames. <br/>
 
